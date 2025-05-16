@@ -2,9 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@media (max-width: 768px) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+/* Responsive Grid Adjustment */
+@media (max-width: 768px) { 
+    main { display: grid; grid-template-columns: 1fr; }
 }
